@@ -1,6 +1,6 @@
 import React, { useEffect, useReducer } from 'react'
 import { todoReducer } from '../08-usereducer/todoreducer';
-import { useCounter } from './useCounter';
+import { useCounter } from '../useCounter/useCounter';
 
 const initialState = [];
 
